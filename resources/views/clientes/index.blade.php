@@ -1,3 +1,6 @@
+@extends('template.principal')
+@section('content')
+
 <style>
 ul {
     list-style: none;
@@ -30,3 +33,5 @@ ul {
 @empty($clientes)
     <h4>Não existem registros!</h4>
 @endempty
+
+@endsection

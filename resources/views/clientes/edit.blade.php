@@ -1,3 +1,6 @@
+@extends('template.principal')
+@section('content')
+
 <h3>Editar Cliente</h3>
 
 <form action="{{ route('clientes.update', $cliente['id']) }}" method="POST">
@@ -7,3 +10,4 @@
     <button>Salvar</button>
 
 </form>
+@endsection
